@@ -1,0 +1,210 @@
+
+	/*=========================================
+	//ESTILIZANDO A PAGINA HOME DE ADOTE AQUI==	
+	//=========================================
+	//VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV*/
+
+	
+	#topBarBack {
+		display: inline-block;
+		margin: 0 0;
+		background-image: url('backgrounds/paginaInicial.png');
+		background-repeat: no-repeat;
+		background-position: center;
+		object-fit: cover;
+		height: 30em;
+		width: 83em;
+	}
+
+	#topbar {
+		display: flex;
+		justify-content: space-between;
+		flex-flow: row wrap;
+		align-items: center;
+		margin: 0;
+		padding: 0;
+		background-color: #479;	
+	}
+
+	
+
+	#menu {	
+		align-self: center;
+		display: flex;
+		flex-flow: row wrap;
+	}
+	.secao {
+		padding-right: 4em;
+		display: flex;
+		flex-flow: row wrap;
+	} 
+	.secao > button{
+		font-family: 'cursive';
+		border: 2px solid #fff;
+		border-radius: 1em;
+		background-color: #ccc;
+	}
+	#logo{	
+		background-color: #d71;
+		height: 2.27em;
+		width: 15em;
+		padding-left: 5em;
+	}	
+	
+	
+	div > a {
+		text-decoration: none;
+	}
+	.adoteAqui{
+		font-family: 'impact';
+		margin: 1em 1em;
+		text-align: center;
+		font-size: 1.5em;
+		color: #ccc;
+	}
+	.flex-container {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-around;
+		font-family: cursive;
+		width: 100%;
+		height: 100%;
+		padding: 1em 1em;
+		margin-left: auto;
+		margin-right: auto;
+		border-radius: 1em;
+		background-color: #d71;
+	}
+	.sub-containers {
+		display: flex;
+		flex-flow: column wrap;
+		align-items: center;
+		margin: 0 auto;
+		padding: 1em 1em;
+		border-radius: 1em; 
+		background-color: #479;
+	}
+	.sub-containers > .imgs {
+		width: 30em;
+	}
+	/*.sub-containers > .who_amelia {
+		width: 35em;
+	}*/
+	.footer {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		object-position: 0 1em;
+		object-fit: cover;
+	}
+
+	/*================================
+	// EVENTOS COMEÇAM AQUI==
+	//================================
+	VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV*/
+	
+	.adoteAqui:hover {
+		font-size: 1.7em;
+		transition-duration: 0.3s;
+		transition-timing-function: ease;
+	}
+	.secao > button:hover {
+		transition-duration: 0.3s;
+		color: #ccc;
+		background-color: #479;
+	}
+	
+	@media(max-width: 750px){
+		#topbar{
+			display: none;
+		}
+	}
+
+	
+	/*====================================
+	// 	ESCOLHA O SEU PET           ==
+	//====================================
+	//VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV*/
+
+	.link {
+		text-decoration: none;
+		color: black;
+	}
+	.botao > button {
+		margin-left: 20em;
+		font-family: 'impact';
+		font-size: 1.15em;
+		border: 2px solid #fff;
+		border-radius: 1em;
+		background-color: #ccc;
+	} 
+	.botao > button:hover {
+		transition-duration: 0.3s;
+		background-color: #479;
+		color: #ccc;
+	}
+
+	/*========================================
+		PAGINA DO FORMULÁRIO		  
+	==========================================
+	VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV*/
+
+	form {
+		margin-right: 28em;
+		margin-left: 28em;
+		padding-right: 2em;
+		padding-left: 2em;
+		background-color: #479;
+		color: #ddd;
+		border: auto solid #fff;
+		border-radius: 1em;
+	}
+	fieldset {
+		display: flex;
+		flex-flow: column wrap;
+		border: 1px solid #d71;
+		border-radius: 1em;
+	}
+	fieldset > input {
+		display: flex;
+		margin-right: auto;
+		margin-left: auto;
+		width: 21em;
+		border: 2px solid #d71;
+		border-radius: 0.3em;
+	}
+	.adotar {
+		align-self: end;
+		margin: 2% 78%;
+		background-color: #ccc;
+		border: 2px solid #ddd;
+		border-radius: 1em;
+		font-size: 1.2em;
+		font-family: impact;
+	}
+	.adotar:hover {
+		transition-duration: 0.3s;
+		background-color: #479;
+		color: #ddd;	
+	}
+	#absolute {
+		position: absolute;
+		top: 30%;
+	}	
+	#imgAlign {
+		width: 100%;
+	}
+
+	/*========================
+	/* RODAPÉ DAS PAGINAS
+	/*========================*/
+	
+	
+	.contato {
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	}
+	.letrasMiudas {
+		font-size: 0.7em;
+	}
